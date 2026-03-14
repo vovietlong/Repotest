@@ -142,3 +142,25 @@ header {
 .child:hover .label {
     display: block;
 } */
+
+@media (min-width: 772px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div {
+        width: 45vw;
+        margin: 5px;
+    }
+    div img {
+        width: 100%;
+        height: auto;
+        max-height: 30vh;
+    }
+}
+
+@media (min-width: 998px) {
+    div {
+        width: 30vw;
+    }
+}
